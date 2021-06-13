@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  text-align: center;
+  width: 500px;
+  justify-content: center;
+}
+.element {
+  padding-inline: 100px;
+
+  }
