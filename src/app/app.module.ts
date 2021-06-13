@@ -13,12 +13,17 @@ import { ShowSliderValueComponent } from './show-slider-value/show-slider-value.
     ShowSliderValueComponent,
   ],
   imports: [
+    FormsModule,
+    ReactiveFormsModule,
     BrowserModule,
     CommonModule,
     FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+    ReactiveFormsModule
+  ]
 })
 export class AppModule { }
